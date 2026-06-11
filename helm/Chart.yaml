@@ -1,0 +1,14 @@
+apiVersion: v2
+name: sd-anti-money-laundering
+description: "BIAN Service Domain: Anti Money Laundering (Monitor pattern, Risk and Compliance)"
+type: application
+version: 0.1.0
+appVersion: "0.1.0"
+keywords:
+  - bian
+  - monitor
+annotations:
+  bian/business-area: "Risk and Compliance"
+  bian/business-domain: "Financial Crime"
+  bian/asset-type: "AML Alert"
+  bian/control-record: "AML Alert Monitoring State"
